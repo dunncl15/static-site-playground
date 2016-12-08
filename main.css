@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+
+/********************
+Base Styles
+*********************/
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+header,
+footer {
+  background-color: #175271;
+}
+
+h1,
+h3 {
+  font-family: 'Merriweather', sans-serif;
+  margin: 0;
+  padding: 5px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: lightgrey;
+}
+
+ul {
+  list-style: none;
+}
+
+/******************************
+Layout Styles
+*******************************/
+
+#wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.banner,
+.main-content {
+  color: #212121;
+}
+
+.social-icon {
+  max-height: 40px;
+  max-width: 40px;
+}
+
+.button {
+  color: #fff;
+  background-color: #455A64;
+  padding: 8px 15px;
+  border-radius: 3px;
+  display: inline-block;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1),
+  0 4px 4px 0 rgba(0,0,0,0.2);
+}
+
+/*****************************
+Module Styles
+******************************/
+
+/******* Header ******/
+
+.home-logo {
+  display: inline-block;
+  max-width: 65px;
+  max-height: 50px;
+  padding-top: 5px;
+}
+
+.main-nav {
+  margin: 0;
+  padding: 0 10px;
+}
+
+.main-nav ul {
+  float: right;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.main-nav li a:hover {
+  border: 1px solid #fff;
+  border-radius: 3px;
+  padding: 10px;
+  color: #fff;
+}
+
+/******* Banner ******/
+
+.banner {
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: center;
+  background-image: url("images/denali-national-park.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.main-title,
+.sub-title {
+  font-weight: bold;
+  color: #fff;
+}
+
+.banner-img {
+  max-width: 250px;
+  max-height: 250px;
+}
+
+/******* Main Content ******/
+
+.main-content {
+  background-color: #f7f7f7;
+  width: 100%;
+}
+
+.grid {
+  background-color: #fff;
+  text-align: center;
+  padding: 1.5em 1em;
+  display: inline-block;
+  margin: 4.5% 2%;
+  width: 29%;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1),
+  0 4px 4px 0 rgba(0,0,0,0.2);
+}
+
+.grid-icon {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.grid:hover {
+  border-bottom: 3px solid #175271;
+}
+
+/******* Footer ******/
+
+footer {
+  text-align: center;
+  padding: 1em 0;
+  border-bottom: 8px solid #CFD8DC;
+}
+
+footer ul {
+  padding: 10px 0;
+}
+
+footer li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+footer p {
+  margin: 0;
+}
